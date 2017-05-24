@@ -1,3 +1,46 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "slate"
+
+publishDir = "docs"
+
+[ params ]
+# optional image background rotation
+#BackgroundImages = [
+#  "bg/b1920-000.jpg",
+#  "bg/b1920-001.jpg",
+#  "bg/b1920-002.jpg",
+#  "bg/b1920-003.jpg",
+#  "bg/b1920-004.jpg"
+#]
+
+# optional background style (valid css only)
+#BackgroundStyle = "background: #005500;"
+
+# optional bool to have links open in a new window/tab (default: true)
+OpenLinksInNewWindow = true
+
+# optional path to favicon
+#Favicon = "favicon.ico"
+
+# list of nav tags
+[[ params.nav ]]
+name = "favorites" # display name
+tag = "favorite"   # url/tag name
+icon = "star"      # font-awesome icon name
+
+[[ params.nav ]]
+name = "search"
+tag = "search"
+icon = "search"
+
+[[ params.nav ]]
+name = "messenger"
+tag = "messenger"
+icon = "comments"
+
+[[ params.nav ]]
+name = "monitoring"
+tag = "monitoring"
+icon = "desktop"

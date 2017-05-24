@@ -1,0 +1,39 @@
+tiles:
+-
+  name: 'google'
+  url: 'https://google.com'
+  img: 'google.svg'
+  tags: ['favorite', 'search']
+-
+  name: 'jenkins'
+  url: 'http://jenkins.viessmann.com'
+  img: ''
+  txt_color: '#ffffff'
+  bg_color: '#ffb900'
+  tags: []
+-
+  name: 'jenkins monitor'
+  url: 'http://jenkins.viessmann.com/monitoring'
+  bg_color: '#ffffff'
+  txt_color: '#ff9900'
+  tags: ['favorite', 'monitoring']
+-
+  name: 'smorgasbord'
+  url: 'http://smorgasbord.viessmann.com'
+  tags: ['favorite']
+-
+  name: 'nexus'
+  url: 'http://nexus.viessmann.com/'
+  tags: ['favorite']
+-
+  name: 'es monitoring'
+  url: 'http://w6412w05.viessmann.com:5601/app/marvel'
+  tags: ['favorite', 'monitoring']
+-
+  name: 't18 slack'
+  url: 'https://viteam18.slack.com'
+  tags: ['favorite', 'messenger']
+-
+  name: 'everest slack'
+  url: 'https://vigcx.slack.com/'
+  tags: ['favorite', 'messenger']  
